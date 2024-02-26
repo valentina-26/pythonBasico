@@ -1,11 +1,3 @@
-num = int(input("escriba el numero:"))
-A = 1
-B = 0
-while n <= num:
-    if num % n == 0:
-        B = B + 1
-    A = A + 1
-    if B == 2:
-        print ("si es primo")
-    else:
-        print("no es primo")
+C = float(input("ingrese la cantidad de grados celsius que desea convertir: "))
+F = (C*9/5) + 32
+print(C,"grados celsius equivale a: ",F,"grados fagrenheit")
